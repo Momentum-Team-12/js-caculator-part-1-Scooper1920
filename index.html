@@ -4,43 +4,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<script src="script.js" defer></script>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css" />
     <title>Shawna's Kitty Calculator</title>
   </head>
+
   <header>
     <div class="headerBox"></div>
   </header>
- 
+
   <body>
     <div class="topRow">
-      <div class="button" id="clear"><button type="button">C</button></div>
-      <div class="display"></div>
+      <button type="button" class="button" id="clear">C</button>
+      <div class="display" id="display"></div>
     </div>
     <div id="container">
       <div class="row">
-      <div class="button" id="7"><button type="button">7</button></div>
-      <div class="button" id="8"><button type="button">8</button></div>
-      <div class="button" id="9"><button type="button">9</button></div>
-      <div class="button" id="/"><button type="button">/</button></div>
-      </div>
-    <div class="row">
-      <div class="button" id="4"><button type="button">4</button></div>
-      <div class="button" id="5"><button type="button">5</button></div>
-      <div class="button" id="6"><button type="button">6</button></div>
-      <div class="button" id="*"><button type="button">x</button></div>
+        <button type="button" class="button" id="7">7</button>
+        <button type="button" class="button" id="8">8</button>
+        <button type="button" class="button" id="9">9</button>
+        <button type="button" class="button" id="/">/</button>
       </div>
       <div class="row">
-      <div class="button" id="1"><button type="button">1</button></div>
-      <div class="button" id="2"><button type="button">2</button></div>
-      <div class="button" id="3"><button type="button">3</button></div>
-      <div class="button" id="-"><button type="button">-</button></div>
+        <button type="button" class="button" id="4">4</button>
+        <button type="button" class="button" id="5">5</button>
+        <button type="button" class="button" id="6">6</button>
+        <button type="button" class="button" id="*">x</button>
       </div>
       <div class="row">
-      <div class="button" id="0"><button type="button">0</button></div>
-      <div class="button" id="."><button type="button">.</button></div>
-      <div class="button" id="eval"><button type="button">=</button></div>
-      <div class="button" id="+"><button type="button">+</button></div>
+        <button type="button" class="button" id="1">1</button>
+        <button type="button" class="button" id="2">2</button>
+        <button type="button" class="button" id="3">3</button>
+        <button type="button" class="button" id="-">-</button>
+      </div>
+      <div class="row">
+        <button type="button" class="button" id="0">0</button>
+        <button type="button" class="button" id=".">.</button>
+        <button type="button" class="button" id="eval" onclick="play()">
+          =
+        </button>
+        <button type="button" class="button" id="+">+</button>
       </div>
     </div>
   </body>
