@@ -12,7 +12,7 @@ body {
 }
 
 .headerBox {
-  height: 250px;
+  height: 75px;
 }
 
 .topRow {
@@ -27,7 +27,6 @@ body {
   width: 400px;
   background-image: url(".github/starter_files/cat pic.jpg");
   background-size: 100%;
-  
 }
 
 .row {
@@ -40,9 +39,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   word-wrap: break-word;
-  background-color: rgb(230, 216, 230);
+  background-color: rgb(175, 176, 175);
   border: solid black;
-  font-size: 210%;
+   font-size: 210%;
+  align-items: center;
+  justify-content: center;
 }
 
 .button {
@@ -50,26 +51,21 @@ body {
   height: 100px;
 }
 
-
-
-
 button {
   width: 100px;
   height: 100px;
   font-size: 210%;
   background-color: rgb(174, 136, 174);
-  
-  
 }
 
 #eval {
-    background-image: url(".github/starter_files/cat pic.jpg");
+  background-image: url(".github/starter_files/Derbs.JPG");
   background-size: 100%;
   color: azure;
 }
 
-.operator {
-    background-color: rgb(225, 209, 167);
-
+#lastButton button {
+  background-color: rgb(230, 216, 230);
 }
+
 
